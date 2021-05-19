@@ -8,7 +8,7 @@ module OmniAuth
       option :name, 'doorkept'
 
       option :client_options, {
-        :site => "http://localhost:5000",
+        :site => "http://localhost:5000", # To be replaced with real Domain app.
         :authorize_url => "/oauth/authorize"
       }
 
@@ -27,6 +27,7 @@ module OmniAuth
       end
 
       def raw_info
+        # This is where our callback goes after signing up.
         @raw_info ||= access_token.get('/api/v1/me.json').parsed
       end
 
