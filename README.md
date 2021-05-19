@@ -1,8 +1,7 @@
 # Omniauth::Doorkept
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/omniauth/doorkept`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to your OAuth Strategy (0101 Solutions Open Source) Code.
+This is the strategy that we use to handle our OAuth Applications.
 
 ## Installation
 
